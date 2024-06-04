@@ -1,0 +1,97 @@
+/* App.css */
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  color: white;
+  padding: 20px 0;
+}
+
+.App-products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.App-product {
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.App-product img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.App-product h3 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.App-product p {
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+.App-product button {
+  margin-top: 10px;
+  padding: 8px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.App-product button:hover {
+  background-color: #0056b3;
+}
+
+.App-cart {
+  margin-top: 30px;
+}
+
+.App-cart h2 {
+  margin-bottom: 20px;
+}
+
+.App-cart ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.App-cart li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.App-cart button {
+  padding: 8px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.App-cart button:hover {
+  background-color: #218838;
+}
